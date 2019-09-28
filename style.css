@@ -94,3 +94,15 @@ label {
     text-align: center;
     font-size: 3rem;
 }
+
+.btn-outline-success {
+    background-color: #37D65D;
+    border:#37D65D;
+    color: #F6F6D6;
+}
+
+.btn-outline-danger {
+    background-color: #CB2222;
+    border: #CB2222 ;
+    color: #F6F6D6;
+}

@@ -16,7 +16,7 @@
     <body>
 
          <?php
-
+            
             date_default_timezone_set('America/Sao_Paulo');
 
             $nomeUsuario = $_POST['nomeUsuario'];
@@ -28,17 +28,6 @@
             $dataTeste = explode("/", $dataNascimento);
             $dataAtual = $dataTeste[2];
             $idade =  $dataFinal - $dataAtual;              
-
-            /*
-            echo $nomeUsuario;
-            echo "<br>";
-            echo $dataNascimento;
-            echo "<br>";
-            echo $emailCadastro;
-            echo "<br>";
-            echo $emailConfirmacao;
-            echo "<br>";
-            echo $idade;*/
         ?>
 
         <div class="logoPrincipal">
@@ -61,14 +50,7 @@
                 <label for="exibeEmail">Email:</label>
                 <span class="saidaCadastro"><?php echo $emailCadastro?></span>
             </div>
-        <div>
-
-
-
-             
-        
-        
-        
+        <div>      
     </body>
     
     <script src="index.js"></script>
